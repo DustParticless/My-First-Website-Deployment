@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #537acc;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    width: 75%;
+}
+
+p,
+li {
+    font-family: 'Cormorant Garamond';
+}
+
+.head {
+    font-size: 20px;
+}
+
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
